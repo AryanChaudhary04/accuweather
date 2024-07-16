@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Weather</title>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="nav-logo">
+                <img src="/AccuWeather_2019_icon.png" alt="logo">
+                <h4>AccuWeather</h4>
+            </div>
+
+            <div class="nav-address">
+                <p>Kathmandu,Bagmati 27&degc</p>
+                <div class="add-icon">
+                    <i class="fa-solid fa-cloud-sun"></i>
+                </div>
+            </div>
+
+            <div class="nav-search">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <input type="text" placeholder="Address,City or Zip Code " class="search-input">
+                <select class="search-select">
+                    <option>Location</option>
+                    <option>News</option>
+                    <option>Videos</option>
+                </select>
+            </div>
+            <div class="nav-tv">
+                <i class="fa-solid fa-tv"></i>
+            </div>
+            <div class="nav-bars">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+        <div class="nav-panel">
+            <p> TODAY
+            <p>HOURLY</p>
+            <p>DAILY</p>
+            <p>RADAR</p>
+            <p>MINUTECAST</p>
+            <p>MONTHLY</p>
+            <p>AIR QUALITY</p>
+            <p>HEALTH & ACTIVITIES</p>
+            <p>FOR BUSINESS</p>
+            </p>
+        </div>
+        <hr>
+    </header>
+
+    <div class="containers">
+        <div class="big-box">
+            <div class="box1">
+                <h2>Today's Weather</h2>
+                <p>Sun,july 14</p>
+            </div>
+            <hr>
+            <div class="box2">
+                <div class="p1">
+                    <div class="bolt">
+                        <i class="fa-solid fa-cloud-bolt"></i>
+                    </div>
+                    <p>Plenty of clouds with widely separated thunderstorms; humid Hi: 29°</p>
+                </div>
+                <br>
+                <div class="p2">
+                    <div class="bolt2">
+                        <i class="fa-solid fa-cloud-bolt"></i>
+                    </div>
+                    <p>Tonight: A couple of evening showers and a thunderstorm; otherwise, cloudy and humid Lo: 21°</p>
+                </div>
+            </div>
+            <div class="box3">
+                <h2>Current Weather</h2>
+                <p>3:37pm</p>
+            </div>
+            <hr>
+            <div class="box4">
+                <div class="baby-box1">
+                    <div class="itext">
+                        <div class="cloud-icon">
+                            <i class="fa-solid fa-cloud-sun"></i>
+                        </div>
+                        <div class="real">
+                            <h1>29&degc</h1>
+                            <p>RealFeel 34&deg;</p>
+                        </div>
+                    </div>
+                    <div class="sunny">
+                        <p>Partly Sunny</p>
+                        <P>more details</P>
+                    </div>
+                </div>
+                
+                <div class="baby-box2">
+                    <div class="a">
+                        <span>RealFeel Shade</span>
+                        <span>31</span>
+                    </div>
+                    <hr>
+                    <div class="b">
+                        <span>Wind</span>
+                        <span>SSW 15km/h</span>
+                    </div>
+                    <hr>
+                    <div class="c">
+                        <span>Wind Gusts</span>
+                        <span>15km/h</span>
+                    </div>
+                    <hr>
+                    <div class="d">
+                        <span>Air</span>
+                        <span>Fair</span>
+                    </div>
+                </div>
+            </div>
+            <div class="box5">
+                <h2>Looking Ahead</h2>
+            </div>
+            <hr>
+            <div class="box6">
+                <p>Thunderstorms in the area late Monday night through Friday evening</p>
+            </div>
+            
+        </div>
+        <div class="side-box">
+            <div class="side-box1">
+                <p><b>Top Stories</b></p>
+            </div>
+            <hr>
+            <div class="side-box2">
+                <div class="hurricane">
+                    <p class="huricane">HURRICANE</p>
+                    <p>Anger mounts in Texas as crippling power outages and heat turn deadly</p>
+                    <p class="huricane">1 day ago</p>
+                </div>
+                <div class="pic-hurricane">
+                    <img src="/hurricane.webp" alt="hurricane" class="hurricane-img">
+                </div>
+            </div>
+            <hr>
+            <div class="side-box3">
+                <div class="weather">
+                    <p class="forecasts">WEATHER FORECASTS</p>
+                    <p>New sweltering heat wave to feature 100 F temperatures in East</p>
+                    <p class="forecasts">20 min ago</p>
+                </div>
+                <div class="pic-weather">
+                    <img src="/weather-forecasts.webp" alt="WF" class="weather-img">
+                </div>
+            </div>
+            <hr>
+            <div class="side-box4">
+                <div class="weather-news">
+                    <p class="news">WEATHER NEWS</p>
+                    <p>2 dead in Vermont amid catastrophic flooding as Beryl moved across US</p>
+                    <p class="news">1 day ago</p>
+                </div>
+                <div class="pic-news">
+                    <img src="/news-img.webp" alt="weather-news" class="news-img">
+                </div>
+            </div>
+            <hr>
+            <div class="side-box5">
+                <div class="clouds">
+                    <p class="cloud">WEATHER FORECASTS</p>
+                    <p>Anger mounts in Texas as crippling power outages and heat turn deadly</p>
+                    <p class="cloud">1 hour ago</p>
+                </div>
+                <div class="pic-clouds">
+                    <img src="/clouds.webp" alt="news" class="cloud-img">
+                </div>
+            </div>
+            <hr>
+            <div class="side-box6">
+                <div class="servere">
+                    <p class="server">SEVERE WEATHER</p>
+                    <p>Anger mounts in Texas as crippling power outages and heat turn deadly</p>
+                    <p class="server">35 minutes ago</p>
+                </div>
+                <div class="pic-servere">
+                    <img src="/servere.webp" alt="SEVERE WEATHER" class="servere-img">
+                </div>
+            </div>
+            <hr>
+            <div class="side-box7">
+                <p>More Stories</p>
+            </div>
+            <div class="side-box1">
+                <p><b>Featured Stories</b></p>
+            </div>
+            <hr>
+            <div class="side-box2">
+                <div class="hurricane">
+                    <p class="huricane">HURRICANE</p>
+                    <p>Anger mounts in Texas as crippling power outages and heat turn deadly</p>
+                    <p class="huricane">1 day ago</p>
+                </div>
+                <div class="pic-hurricane">
+                    <img src="/hurricane.webp" alt="hurricane" class="hurricane-img">
+                </div>
+            </div>
+            <hr>
+            <div class="side-box3">
+                <div class="weather">
+                    <p class="forecasts">WEATHER FORECASTS</p>
+                    <p>New sweltering heat wave to feature 100 F temperatures in East</p>
+                    <p class="forecasts">20 min ago</p>
+                </div>
+                <div class="pic-weather">
+                    <img src="/weather-forecasts.webp" alt="WF" class="weather-img">
+                </div>
+            </div>
+            <hr>
+            <div class="side-box4">
+                <div class="weather-news">
+                    <p class="news">WEATHER NEWS</p>
+                    <p>2 dead in Vermont amid catastrophic flooding as Beryl moved across US</p>
+                    <p class="news">1 day ago</p>
+                </div>
+                <div class="pic-news">
+                    <img src="/news-img.webp" alt="weather-news" class="news-img">
+                </div>
+            </div>
+            <hr>
+            <div class="side-box5">
+                <div class="clouds">
+                    <p class="cloud">WEATHER FORECASTS</p>
+                    <p>Anger mounts in Texas as crippling power outages and heat turn deadly</p>
+                    <p class="cloud">1 hour ago</p>
+                </div>
+                <div class="pic-clouds">
+                    <img src="/clouds.webp" alt="news" class="cloud-img">
+                </div>
+            </div>
+            <hr>
+            <div class="side-box6">
+                <div class="servere">
+                    <p class="server">SEVERE WEATHER</p>
+                    <p>Anger mounts in Texas as crippling power outages and heat turn deadly</p>
+                    <p class="server">35 minutes ago</p>
+                </div>
+                <div class="pic-servere">
+                    <img src="/servere.webp" alt="SEVERE WEATHER" class="servere-img">
+                </div>
+            </div>
+            <hr>
+            <div class="side-box7">
+                <p>More Stories</p>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
